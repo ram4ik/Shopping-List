@@ -11,6 +11,7 @@
 		95B53B3725233EBC00F0E258 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B3625233EBC00F0E258 /* ContentView.swift */; };
 		95B53B3925233EBE00F0E258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B53B3825233EBE00F0E258 /* Assets.xcassets */; };
 		95B53B3C25233EBE00F0E258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B53B3B25233EBE00F0E258 /* Preview Assets.xcassets */; };
+		95FEBBBA2525D9370006112B /* AddShoppingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FEBBB92525D9370006112B /* AddShoppingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95B53B3825233EBE00F0E258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B53B3B25233EBE00F0E258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95B53B3D25233EBE00F0E258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FEBBB92525D9370006112B /* AddShoppingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShoppingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				95B53B3825233EBE00F0E258 /* Assets.xcassets */,
 				95B53B3D25233EBE00F0E258 /* Info.plist */,
 				95B53B3A25233EBE00F0E258 /* Preview Content */,
+				95FEBBB92525D9370006112B /* AddShoppingItemView.swift */,
 			);
 			path = "Shopping List";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FEBBBA2525D9370006112B /* AddShoppingItemView.swift in Sources */,
 				95B53B3725233EBC00F0E258 /* ContentView.swift in Sources */,
 				95B53B3525233EBC00F0E258 /* Shopping_ListApp.swift in Sources */,
 			);

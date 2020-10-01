@@ -8,12 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showAddShoppingItemView = false
+    
     var body: some View {
         NavigationView {
             List {
                 ShoppingCell()
             }
             .navigationTitle("Shopping List")
+            .navigationBarItems(
+                trailing: Button(
+                    action: {
+                        showAddShoppingItemView.toggle()
+            }, label: {
+                Text("Save")
+            }))
+            .sheet(isPresented: $showAddShoppingItemView, content: {
+                AddShoppingItemView(showAddShoppingItemView: $showAddShoppingItemView)
+            })
         }
     }
 }
